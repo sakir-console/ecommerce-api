@@ -23,6 +23,7 @@ This project is a Laravel-based API for an e-commerce platform. It supports user
    ```bash
    git clone https://github.com/sakir-console/ecommerce-api.git
    cd ecommerce-api
+   php artisan serve
    ```
 
 
@@ -32,7 +33,7 @@ This project is a Laravel-based API for an e-commerce platform. It supports user
 The API uses **Laravel Sanctum** for token-based authentication. Users must register (sign up) and log in (sign in) to obtain a token for accessing protected routes.
 
 ### User Authentication
-
+Deployed: [https://test.foodcity.com.bd](https://test.foodcity.com.bd)
 #### 1. Sign Up
 - **Endpoint:** `POST /api/v1/signup`
 - **Request Payload:**
@@ -156,7 +157,7 @@ Authorization: Bearer your-api-token
   }
   ```
 
-### 5. Update Product (Admin Only)
+### 5. Update Product (Admin & Editor Only)
 - **Endpoint:** `POST /api/v1/product-update/{id}`
 - **Request Payload:**
   ```json
