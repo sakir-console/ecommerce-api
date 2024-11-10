@@ -194,8 +194,9 @@ Authorization: Bearer your-api-token
 ## 4. Role-Based Access Control
 
 The application defines two roles:
-- **Admin:** Full access to all product CRUD operations. (`role_id` = 2)
-- **Editor:** Can only update product details. (`role_id` = 3)
+- **Admin:** Full access to all product CRUD operations. (`user id` = 2)
+- **Editor:** Can only update product details. (`user id` = 3)
+- You can add the admin/editor by modifying in AccountController
 
 ## 5. Database Optimization
 
