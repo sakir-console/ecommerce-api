@@ -86,6 +86,7 @@ All product management endpoints require a Bearer token obtained from the sign-i
 ### Headers:
 ```http
 Authorization: Bearer your-api-token
+Accept: application/json
 ```
 
 ### 1. Get All Products
