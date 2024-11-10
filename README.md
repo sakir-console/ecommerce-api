@@ -22,33 +22,10 @@ This project is a Laravel-based API for an e-commerce platform. It supports user
 1. Clone the repository:
    ```bash
    git clone https://github.com/sakir-console/ecommerce-api.git
-   cd laravel-ecommerce-api
+   cd ecommerce-api
    ```
 
-2. Install dependencies:
-   ```bash
-   composer install
-   ```
 
-3. Copy the `.env` file and update your database credentials:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. Run database migrations and seeders:
-   ```bash
-   php artisan migrate --seed
-   ```
-
-5. Import the initial database (if necessary):
-   ```bash
-   mysql -u your_username -p your_database < ecommerce_sakir.sql
-   ```
-
-6. Generate the application key:
-   ```bash
-   php artisan key:generate
-   ```
 
 ## 2. Authentication
 
