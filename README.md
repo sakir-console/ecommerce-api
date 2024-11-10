@@ -18,6 +18,10 @@ This project is a Laravel-based API for an e-commerce platform. It supports user
 - Laravel 10.x
 - MySQL
 
+#### Import the sample database:
+
+-The database file (ecommerce_sakir.sql) is included in the project root folder. Import it & update to .env
+
 ### Setup
 1. Clone the repository:
    ```bash
